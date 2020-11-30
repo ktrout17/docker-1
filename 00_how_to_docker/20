@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Create a local swarm, the Char virtual machine should be its manager.
+
+# Docker swarm is a container orchestration tool, meaning that it allows the user 
+# to manage multiple containers deployed across multiple host machines. One of the 
+# key benefits associated with the operation of a docker swarm is the high level of 
+# availability offered for applications.
+
+docker swarm init --advertise-addr $(docker-machine ip Char)
+
+# docker info -> to check manager ip (should be Char)

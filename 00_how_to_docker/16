@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Look up the spawning-pool container’s logs in real time without running its shell.
+
+docker logs -f spawning-pool
+
+# -f -> follow the log (continuously updates logs in real time). 
+# Without -f, it just gets the current logs and exits.
