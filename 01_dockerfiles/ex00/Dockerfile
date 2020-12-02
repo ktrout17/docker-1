@@ -5,7 +5,8 @@ FROM alpine
 
 RUN apk update && apk add vim
 
-CMD [ "vim" ]
+ENTRYPOINT [ "vim" ]
 
-# docker build -t alpine 
-# docker run -it --rm alpine
+# BUILD -> docker build - < 01_dockerfiles/ex00/Dockerfile 
+# GET IMAGE ID -> docker image ls
+# RUN -> docker run -it --rm <image-id>
