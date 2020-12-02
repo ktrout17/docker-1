@@ -7,6 +7,5 @@ RUN apk update && apk add vim
 
 ENTRYPOINT [ "vim" ]
 
-# BUILD -> docker build - < 01_dockerfiles/ex00/Dockerfile 
-# GET IMAGE ID -> docker image ls
-# RUN -> docker run -it --rm <image-id>
+# BUILD -> cd 01_dockerfiles/ex00 && docker build -t ex00 . 
+# RUN -> docker run -it --rm ex00
