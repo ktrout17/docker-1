@@ -7,4 +7,4 @@
 # IP address of the virtual machine as a URL.
 # Congratulations, you just deployed a functional Wordpress website in two commands!
 
-docker run -d --name lair -p 8080:80 --link spawning-pool:mysql wordpress
+docker run -d --name lair -p $(docker-machine ip Char):8080:80 --link spawning-pool:mysql wordpress
