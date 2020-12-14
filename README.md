@@ -3,7 +3,9 @@
 This project is an introduction to docker. 
 
 A sample Ruby on Rails app was used to better facilitate testing, found here: 
-https://github.com/Azure-Samples/ruby-docs-hello-world
+
+```https://github.com/Azure-Samples/ruby-docs-hello-world```
 
 To clone with this submodule:
-git clone --recurse-submodules -j8 https://github.com/ktrout17/docker-1.git
+
+```git clone --recurse-submodules -j8 https://github.com/ktrout17/docker-1.git```
