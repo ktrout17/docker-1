@@ -2,7 +2,7 @@
 
 This project is an introduction to docker. 
 
-###### Ex02 in /01_dockerfiles
+## Ex02 in /01_dockerfiles
 
 A sample Ruby on Rails app was used to better facilitate testing, found here: 
 
