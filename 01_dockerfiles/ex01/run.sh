@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo -e "\e[96mBuilding image...\e[0m"
+docker build -t ex01 .
+echo -e "\e[92mBuild complete.\e[0m"
+
 echo -e "\e[96mStarting teamspeak..\e[0m"
 docker run -d --name teamspeak --rm -p 9987:9987/udp -p 10011:10011 -p 30033:30033 ex01
 echo -e "\e[92mTeamspeak now running..\e[0m"
