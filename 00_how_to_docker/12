@@ -6,7 +6,7 @@
 # the container directly creates a database named zerglings, and that the container
 # itself is named spawning-pool
 
-docker run -d --restart=always -e MYSQL_ROOT_PASSWORD="Kerrigan" -v hatchery:/var/lib/mysql -e MYSQL_DATABASE="zerglings" --name spawning-pool mysql
+docker run -d --restart=on-failure -e MYSQL_ROOT_PASSWORD="Kerrigan" -v hatchery:/var/lib/mysql -e MYSQL_DATABASE="zerglings" --name spawning-pool mysql
 
 # -e -> environment
 # -v -> volume

@@ -6,10 +6,17 @@
 # container are updated). For this exercise, you should only specify the commands
 # to be run directly in the container.
 
-# install and/or run debian container -> docker run -it --rm debian
+# docker run -it --rm debian
 
 apt-get update
 apt-get install -y build-essential git
 apt-get install vim -y
+
+# vim hello.c
+# #include <stdio.h>
+# int main() {
+# printf("Hello, World!");
+# return 0;
+# }
 
 # exit

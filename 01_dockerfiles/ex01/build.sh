@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "Building image..."
+echo "\e[96mBuilding image...\e[0m"
 docker build -t ex01 .
-echo "Build complete."
+echo "\e[92mBuild complete.\e[0m"
