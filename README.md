@@ -2,6 +2,8 @@
 
 This project is an introduction to docker. 
 
+###### Ex02 in /01_dockerfiles
+
 A sample Ruby on Rails app was used to better facilitate testing, found here: 
 
 ```https://github.com/Azure-Samples/ruby-docs-hello-world```
