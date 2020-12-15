@@ -3,3 +3,5 @@
 # Relaunch the overlord container.
 
 docker restart overlord
+
+# docker exec -it overlord bash then kill 1
